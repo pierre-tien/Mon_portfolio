@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCHALLA Kpatcha Pierre | Portfolio & CV</title>
+    <!-- Lien vers votre fichier CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- CANVAS POUR LE VISUEL IMMERSIF SPATIAL ET MATHÉMATIQUE -->
+    <canvas id="space-canvas"></canvas>
+    <!-- (Le reste de votre code habituel...) -->
+    <!-- ================= 1. MENU DE NAVIGATION ================= -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">T.<span>Pierre</span></div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#about">À propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#skills">Compétences</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- ================= 2. BANNIÈRE D'ACCUEIL (HERO SECTION) ================= -->
+    <section id="accueil" class="hero">
+        <div class="hero-content">
+            <h1>Bonjour, je suis <span class="highlight">TCHALLA Kpatcha Pierre</span></h1>
+            <p>Développeur indépendant & Passionné de technologies et de l'informatique.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">Voir mes projets</a>
+                <a href="#contact" class="btn secondary">Me contacter</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= 3. SECTION À PROPOS & FORMATION / PARCOURS ================= -->
+   
+    <div class="about-container">
+    <!-- Ajout de votre photo -->
+    <div class="about-container" style="display: flex; align-items: center; gap: 2rem; flex-wrap: wrap;">
+    <!-- Votre photo intégrée -->
+    <div class="about-img-container" style="flex-shrink: 0; text-align: center;">
+        <img src="assets/profil.jpg.jpg" alt="TCHALLA Kpatcha Pierre" style="width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 3px solid #38bdf8; box-shadow: 0 0 20px rgba(56, 189, 248, 0.4);">
+    </div>
+</div>
+   
+    <section id="about" class="about-section">
+        <h2>À propos de moi</h2>
+        <div class="about-container">
+            <div class="about-text">
+                <p>Je m'appelle <strong>TCHALLA Kpatcha Pierre</strong>, né le 06/10/2008 à Kara et résidant à Atakpamé, au Togo. Développeur indépendant, je combine mes compétences en programmation et en nouvelles technologies pour concevoir des solutions innovantes.</p>
+                
+                <h3 style="margin-top: 1.5rem; color: var(--primary-color);">Formation Académique</h3>
+                <ul style="text-align: left; margin: 1rem 0; color: var(--text-muted);">
+                    <li><strong>2023 - 2026 :</strong> Baccalauréat Deuxième Partie Série D (BAC II) au Collège Saint Albert.</li>
+                    <li><strong>2019 - 2023 :</strong> Brevet d’Etude du Premier Cycle (BEPC) au Collège CEG-A/ENS.</li>
+                    <li><strong>2013 - 2019 :</strong> Certificat de fin d’Etudes de l’Enseignement du Premier Degré (CEPD) au Collège NDA.</li>
+                </ul>
+
+                <h3 style="margin-top: 1.5rem; color: var(--primary-color);">Expériences & Engagements</h3>
+                <ul style="text-align: left; margin: 1rem 0; color: var(--text-muted);">
+                    <li><strong>2026 :</strong> Participation à la formation de l'initiative <strong>Jeunes filles aux commandes</strong> à Atakpamé.</li>
+                    <li><strong>2026 :</strong> Participation au <strong>Forum des jeunes</strong> à Atakpamé (acquisition de compétences en communication, création de contenus, stratégie d'échecs et amélioration au basketball).</li>
+                    <li><strong>2025 :</strong> Participation à la Première Compétition Nationale de Robotique au Secondaire First Lego League (FLL) Challenge au Togo (04/07/2025).</li>
+                    <li><strong>2024 :</strong> Membre engagé du mouvement <strong>MAJ ATBEF</strong>.</li>
+                </ul>
+
+                <h3 style="margin-top: 1.5rem; color: var(--primary-color);">Langues & Divers</h3>
+                <p style="text-align: left; color: var(--text-muted);">
+                    <strong>Langues :</strong> Français (Parlé, Lu, Écrit - Bien) | Anglais (Parlé, Lu, Écrit - Passable)<br>
+                    <strong>Sports :</strong> Basketball (en amélioration), Football, Volley-Ball<br>
+                    <strong>Loisirs & Stratégie :</strong> Codage de scripts, Échecs (perfectionnement stratégique)
+                </p>
+
+                <div style="margin-top: 2rem;">
+                    <div style="margin-top: 2rem;">
+    <a href="#contact" class="btn primary" onclick="alert('Pour obtenir le CV ou pour toute collaboration, veuillez contacter TCHALLA Kpatcha Pierre directement via le formulaire ci-dessous.');">Télécharger mon CV</a>
+</div>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <!-- ================= 5. SECTION PROJETS ================= -->
+<section id="projects" class="projects-section">
+    <h2>Projets & Réalisations</h2>
+    
+    <div class="projects-grid">
+        
+        <!-- PROJET 1 : Bot Telegram de Fact-Checking -->
+        <div class="project-card">
+            <div class="project-info">
+                <h3>CLIC Bot — Fact-Checking (En cours de développement)</h3>
+                <p>Développement en cours d'un bot Telegram asynchrone intelligent en Python sous Visual Studio Code. L'objectif est de concevoir un outil automatisé capable d'analyser les soumissions des utilisateurs pour vérifier la véracité des faits et lutter efficacement contre la propagation des fake news.</p>
+                <div class="math-formula">Statut : En cours d'implémentation (Dev)</div>
+                <div class="tech-tags">
+                    <span>Python</span>
+                    <span>Telegram API</span>
+                    <span>VS Code</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- PROJET 2 : First Lego League (FLL) -->
+        <div class="project-card">
+            <div class="project-info">
+                <h3>Compétition First Lego League (FLL 2025)</h3>
+                <p>Participation active en équipe à la prestigieuse compétition First Lego League en 2025. Collaboration collective pour concevoir un projet d'innovation concret et programmer un robot autonome afin de relever les défis techniques du tournoi.</p>
+                <div class="math-formula">Travail d'équipe & Stratégie — 2025</div>
+                <div class="tech-tags">
+                    <span>First Lego League</span>
+                    <span>Esprit d'équipe</span>
+                    <span>Programmation</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+   <!-- ================= 6. SECTION CONTACT ================= -->
+    <section id="contact" class="contact-section">
+        <h2>Me Contacter</h2>
+        <p>Atakpamé, Togo | Tél : +228 71 73 66 17 | Email : pierretchalla41@gmail.com</p>
+        
+        <!-- Bouton de contact direct par e-mail -->
+        <div style="text-align: center; padding: 1.5rem 0;">
+            <p style="color: #94a3b8; margin-bottom: 1.5rem;">Cliquez sur le bouton ci-dessous pour m'envoyer directement un e-mail :</p>
+            <a href="mailto:pierretchalla41@gmail.com?subject=Contact%20depuis%20le%20Portfolio&body=Bonjour%20Tchalla,%0A%0AJe%20vous%20contacte%20concernant..." class="btn primary">Envoyer un mail</a>
+        </div>
+    </section>
+   <!-- ================= PIED DE PAGE ================= -->
+    <footer>
+        <p>&copy; 2026 - TCHALLA Kpatcha Pierre | Système basé sur l'optimisation mathématique.</p>
+        <div class="social-links">
+            <a href="https://github.com" target="_blank">GitHub</a>
+            <a href="mailto:pierretchalla41@gmail.com">Email</a>
+        </div>
+    </footer>
+
+    <!-- Lien vers le fichier JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
